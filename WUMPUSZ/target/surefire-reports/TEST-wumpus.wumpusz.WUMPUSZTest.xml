@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="wumpus.wumpusz.WUMPUSZTest" time="0.73" tests="10" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1250"/>
+    <property name="java.class.path" value="C:\Users\szapp\Desktop\WUMPUSZ\target\test-classes;C:\Users\szapp\Desktop\WUMPUSZ\target\classes;C:\Users\szapp\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\szapp\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;C:\Users\szapp\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\szapp\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\szapp\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\szapp\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\szapp\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.1\junit-jupiter-5.10.1.jar;C:\Users\szapp\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.1\junit-jupiter-params-5.10.1.jar;C:\Users\szapp\.m2\repository\org\mockito\mockito-core\5.3.1\mockito-core-5.3.1.jar;C:\Users\szapp\.m2\repository\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar;C:\Users\szapp\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.4\byte-buddy-agent-1.14.4.jar;C:\Users\szapp\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\szapp\.m2\repository\com\github\stefanbirkner\system-rules\1.19.0\system-rules-1.19.0.jar;C:\Users\szapp\.m2\repository\junit\junit\4.11-beta-1\junit-4.11-beta-1.jar;C:\Users\szapp\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\szapp\.m2\repository\ch\qos\logback\logback-classic\1.4.8\logback-classic-1.4.8.jar;C:\Users\szapp\.m2\repository\ch\qos\logback\logback-core\1.4.8\logback-core-1.4.8.jar;C:\Users\szapp\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Budapest"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\szapp\AppData\Local\Temp\surefire8960907865566447070\surefirebooter-20240108020540428_3.jar C:\Users\szapp\AppData\Local\Temp\surefire8960907865566447070 2024-01-08T02-05-40_253-jvmRun1 surefire-20240108020540428_1tmp surefire_0-20240108020540428_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\szapp\Desktop\WUMPUSZ\target\test-classes;C:\Users\szapp\Desktop\WUMPUSZ\target\classes;C:\Users\szapp\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\szapp\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;C:\Users\szapp\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\szapp\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\szapp\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\szapp\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\szapp\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.1\junit-jupiter-5.10.1.jar;C:\Users\szapp\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.1\junit-jupiter-params-5.10.1.jar;C:\Users\szapp\.m2\repository\org\mockito\mockito-core\5.3.1\mockito-core-5.3.1.jar;C:\Users\szapp\.m2\repository\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar;C:\Users\szapp\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.4\byte-buddy-agent-1.14.4.jar;C:\Users\szapp\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\szapp\.m2\repository\com\github\stefanbirkner\system-rules\1.19.0\system-rules-1.19.0.jar;C:\Users\szapp\.m2\repository\junit\junit\4.11-beta-1\junit-4.11-beta-1.jar;C:\Users\szapp\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\szapp\.m2\repository\ch\qos\logback\logback-classic\1.4.8\logback-classic-1.4.8.jar;C:\Users\szapp\.m2\repository\ch\qos\logback\logback-core\1.4.8\logback-core-1.4.8.jar;C:\Users\szapp\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\szapp"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\szapp\Desktop\WUMPUSZ"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\szapp\AppData\Local\Temp\surefire8960907865566447070\surefirebooter-20240108020540428_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.1+12-LTS-29"/>
+    <property name="user.name" value="szapp"/>
+    <property name="stdout.encoding" value="Cp1250"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\szapp\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\szapp\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2023.2.5"/>
+    <property name="java.version" value="21.0.1"/>
+    <property name="user.dir" value="C:\Users\szapp\Desktop\WUMPUSZ"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1250"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Users\szapp\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1250"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.1+12-LTS-29"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testMegadottErtek3" classname="wumpus.wumpusz.WUMPUSZTest" time="0.592">
+    <system-out><![CDATA[02:05:42.590 [main] INFO  wumpus.wumpusz.WUMPUSZ - Starting WUMPUSZ...
+Add meg a felhasználóneved!
+Kérem adja meg a pálya méretét!
+Üdv username
+WUMPUSZ
+Válassz a következő opciók közül:
+1 Pályaszerkesztő
+2 Játék
+3 Kilépés
+Válassz a következő opciók közül:
+1 Pályaszerkesztő
+2 Játék
+3 Kilépés
+Viszlát!
+]]></system-out>
+  </testcase>
+  <testcase name="testLovesNyugatFalra" classname="wumpus.wumpusz.WUMPUSZTest" time="0.006"/>
+  <testcase name="testLovesEsakWumpuszra" classname="wumpus.wumpusz.WUMPUSZTest" time="0.012">
+    <system-out><![CDATA[02:05:42.647 [main] INFO  wumpus.wumpusz.WUMPUSZ - Starting WUMPUSZ...
+Add meg a felhasználóneved!
+Kérem adja meg a pálya méretét!
+Üdv username
+WUMPUSZ
+Válassz a következő opciók közül:
+1 Pályaszerkesztő
+2 Játék
+3 Kilépés
+Válassz a következő opciók közül:
+1 Pályaszerkesztő
+2 Játék
+3 Kilépés
+Viszlát!
+]]></system-out>
+  </testcase>
+  <testcase name="testMainExitOption" classname="wumpus.wumpusz.WUMPUSZTest" time="0.004">
+    <system-out><![CDATA[02:05:42.657 [main] INFO  wumpus.wumpusz.WUMPUSZ - Starting WUMPUSZ...
+Add meg a felhasználóneved!
+Kérem adja meg a pálya méretét!
+Üdv username
+WUMPUSZ
+Válassz a következő opciók közül:
+1 Pályaszerkesztő
+2 Játék
+3 Kilépés
+Viszlát!
+]]></system-out>
+  </testcase>
+  <testcase name="testPalyaSzerkesztoOption3" classname="wumpus.wumpusz.WUMPUSZTest" time="0.005">
+    <system-out><![CDATA[02:05:42.665 [main] INFO  wumpus.wumpusz.WUMPUSZ - Starting WUMPUSZ...
+Add meg a felhasználóneved!
+Kérem adja meg a pálya méretét!
+Üdv username
+WUMPUSZ
+Válassz a következő opciók közül:
+1 Pályaszerkesztő
+2 Játék
+3 Kilépés
+Viszlát!
+]]></system-out>
+  </testcase>
+  <testcase name="testVeremLehelyezesOption1" classname="wumpus.wumpusz.WUMPUSZTest" time="0.004">
+    <system-out><![CDATA[02:05:42.672 [main] INFO  wumpus.wumpusz.WUMPUSZ - Starting WUMPUSZ...
+Add meg a felhasználóneved!
+Kérem adja meg a pálya méretét!
+Üdv username
+WUMPUSZ
+Válassz a következő opciók közül:
+1 Pályaszerkesztő
+2 Játék
+3 Kilépés
+Viszlát!
+]]></system-out>
+  </testcase>
+  <testcase name="testVeremLehelyezesOption2" classname="wumpus.wumpusz.WUMPUSZTest" time="0.004">
+    <system-out><![CDATA[02:05:42.679 [main] INFO  wumpus.wumpusz.WUMPUSZ - Starting WUMPUSZ...
+Add meg a felhasználóneved!
+Kérem adja meg a pálya méretét!
+Üdv username
+WUMPUSZ
+Válassz a következő opciók közül:
+1 Pályaszerkesztő
+2 Játék
+3 Kilépés
+Viszlát!
+]]></system-out>
+  </testcase>
+  <testcase name="testVeremLehelyezesOption3" classname="wumpus.wumpusz.WUMPUSZTest" time="0.012">
+    <system-out><![CDATA[02:05:42.687 [main] INFO  wumpus.wumpusz.WUMPUSZ - Starting WUMPUSZ...
+Add meg a felhasználóneved!
+Kérem adja meg a pálya méretét!
+Üdv username
+WUMPUSZ
+Válassz a következő opciók közül:
+1 Pályaszerkesztő
+2 Játék
+3 Kilépés
+Viszlát!
+]]></system-out>
+  </testcase>
+  <testcase name="testLovesKeletFalra" classname="wumpus.wumpusz.WUMPUSZTest" time="0.004"/>
+  <testcase name="testLovesDélFalra" classname="wumpus.wumpusz.WUMPUSZTest" time="0.003"/>
+</testsuite>

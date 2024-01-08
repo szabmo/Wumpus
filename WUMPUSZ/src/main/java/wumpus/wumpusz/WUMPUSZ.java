@@ -1,7 +1,10 @@
 
 package wumpus.wumpusz;
 
-
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import java.io.IOException;
+import java.util.*;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.*;
@@ -9,7 +12,10 @@ import java.util.*;
 
 public class WUMPUSZ {
 
+    private static final Logger logger = LoggerFactory.getLogger(WUMPUSZ.class);
+
     public static void main(String[] args) throws IOException {
+        logger.info("Starting WUMPUSZ...");
         Scanner be = new Scanner(System.in);
         int N=0;
         String felhasználónév;
